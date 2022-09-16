@@ -1,0 +1,32 @@
+_id: req_85af7a2735c041d1842c2387fd5ef807
+type: Request
+parentId: wrk_a5bcb7694a284c34b7c589a051f5876f
+modified: 1663318082947
+created: 1663134673860
+url: http://localhost:8080/Payment/
+name: New Request
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |
+    
+    	{
+    		"Booking":"123",
+    		"Amount": 6000,
+    		"Method": "card"
+    	}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_460371ff304e4cdcbb91771d70e8abc0
+authentication: {}
+metaSortKey: -1663134673860
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
